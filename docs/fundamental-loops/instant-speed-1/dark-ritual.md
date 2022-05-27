@@ -20,7 +20,6 @@ Once this loop is done to make black mana, you can filter it into green mana by 
 
 ## Procedure
 
-1. Cast Dark Ritual
-1. Resolve Dark Ritual
-1. Discard a titan, shuffle
+1. Cast and resolve Dark Ritual
+1. Discard a titan, resolve shuffle trigger
 1. Resolve 2 draw triggers
