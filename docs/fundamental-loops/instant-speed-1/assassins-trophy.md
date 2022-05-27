@@ -18,7 +18,7 @@ This is generally the first thing you should do after making mana. The process t
 ## Procedure
 
 1. Discard any land, holding priority on the draw trigger
-1. Discard a titan, shuffle
+1. Discard a titan, generate a shuffle trigger
 1. Discard and dredge Dakmor, stacking the draw trigger below the shuffle and resolve the shuffle trigger only
 1. Discard and dredge Dakmor, stacking the draw trigger below the shuffle again, but hold priority on the shuffle trigger
 1. Cast Assassin's Trophy
