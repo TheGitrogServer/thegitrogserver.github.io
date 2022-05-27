@@ -20,9 +20,8 @@ This loop is particularly useful if you’re going off over the top of other ins
 
 ## Procedure
 
-1. Cast [*instant*]
-1. Resolve the instant
-1. Discard a titan, shuffle
+1. Cast [*instant*], resolve the [*instant*]
+1. Discard a titan, resolve shuffle trigger
 1. Resolve 2 draw triggers
 
 You are now back at your initial board state after having cast an instant spell.
