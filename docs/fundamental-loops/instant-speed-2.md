@@ -18,11 +18,10 @@ You can use this basic loop to do things like [get unbounded mana from Dark Ritu
 ## Procedure
 
 1. Discard any land, holding priority on the draw trigger
-1. Discard a titan, shuffle
+1. Discard a titan, resolve shuffle trigger
 1. Discard and dredge Dakmor, stacking the draw trigger below the shuffle and resolve the shuffle trigger only
 1. Discard and dredge Dakmor, stacking the draw trigger below the shuffle again, but hold priority on the shuffle trigger
-1. Cast [*instant*]
-1. Resolve the instant
+1. Cast and resolve [*instant*]
 1. Resolve the shuffle trigger and all three draw triggers
 
 You are now back at your initial board state after having cast an instant spell.
