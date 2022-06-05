@@ -31,8 +31,11 @@ This section was made to easily navigate through different parts of the setup so
 
 **Is L divisible by 3 after activating gaea's cradle for GGGG ?**
 * Yes
+
   Move on to the next question.
+  
 * No
+
   Move on to 'III. Setup loop'
 
 Is L more than 3?
