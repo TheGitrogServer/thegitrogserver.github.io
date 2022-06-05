@@ -1,3 +1,11 @@
+---
+layout: default
+title: Dakmorless Loop
+nav_order: 1
+grand_parent: Auxiliary Loops
+parent: Life from the Loam
+---
+
 <h1>Dakmorless loam dredge loops</h1>
 
 <h2>Preface:</h2>
