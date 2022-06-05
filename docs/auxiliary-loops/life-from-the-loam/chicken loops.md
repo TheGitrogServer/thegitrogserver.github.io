@@ -30,21 +30,26 @@ All other referenced cards in hand
 This section was made to easily navigate through different parts of the setup so you can get to the shortcuttable loop as soon as possible. The amount of cards in the library will be shortened to L from this point on as they are necessary to determine whether or not you can start shortcutting.
 
 **Is L divisible by 3 after activating gaea's cradle for GGGG ?**
-* Yes
+
+* Yes:
 
   Move on to the next question.
   
+* No:
+
+  Move on to section III 'Setup loop'
+
+**Is L more than 3?**
+
+* Yes
+
+Move on to section IV 'Non-deterministic dredge loop'
+
 * No
 
-  Move on to 'III. Setup loop'
+Move on to section V 'Deterministic dredge loop' 
 
-Is L more than 3?
-If not move on to section V 'Deterministic dredge loop' 
-
-If L is more than 3 AND divisible by 3 then move on to section IV. Non-deterministic dredge loop.
-
-
-III. Setup loop (adds a card to library)
+<h3>III. Setup loop (adds a card to library)</h3>
 
 1. Chain land discards until you have drawn your library
 2. Discard titan to shuffle
@@ -58,7 +63,7 @@ III. Setup loop (adds a card to library)
 
 After resolving this loop return to section II 'Determining the road to determinism'
 
-IV. Non-deterministic dredge loop (not shortcuttable)
+<h3>IV. Non-deterministic dredge loop (not shortcuttable)</h3>
 
 In this section you will have to loop multiple times without shortcutting. You will need to loop the following dredge loop to acquire a certain amount of mana to be able to move over to a shortcuttable version. The amount of mana needed should be (L-2)*2 and after that you're going to need one more G to cast a crop rotation. 
 
@@ -93,7 +98,7 @@ After getting to the amount of mana necessary you're going to need to remove lan
 15. Resolve crop rotation searching for cradle
 Move on to V 'Deterministic dredge loop'.
 
-V. Deterministic dredge loop (shortcuttable)
+<h3>V. Deterministic dredge loop (shortcuttable)</h3>
 
 1. Discard life from the loam
 2. Discard a land
@@ -108,7 +113,7 @@ V. Deterministic dredge loop (shortcuttable)
 
 Looping these 10 steps will net you an infinite amount of green mana which can be filtered to black by continuing to loop but by replacing all instances of gaea's cradle with a black producing land. These loops can be shortcutted and you can move on to section VI 'Looping spells'.
 
-VI. Looping spells
+<h3>VI. Looping spells</h3>
 
 Before you can loop spells you need to clear your library/graveyard of extra lands. You can do this by using life from the loam as it removes 3 lands, while needing only 1 to draw it back.
 
