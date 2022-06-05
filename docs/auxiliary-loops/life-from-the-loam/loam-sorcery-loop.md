@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loam Sorcery Loop
-nav_order: 1
+nav_order: 2
 grand_parent: Auxiliary Loops
 parent: Life from the Loam
 ---
