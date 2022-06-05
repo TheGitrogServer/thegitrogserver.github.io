@@ -4,7 +4,7 @@
 
 These are new Dakmorless infinite mana loops with crop rotation and gaea's cradle utilizing sculpting the deck to ensure hitting a titan when dredging and thus shuffling your gy in your library. This method allows you to shuffle in your graveyard without adding another card to your yard/library. We also use life from the loam to manage the amount of cards in your graveyard and library. 
 
-Requirements:
+<h2>Requirements:</h2>
 
 As this is a Darkmorless line we are assuming you emptied your library with Tainted Pact, as this is the only reliable way of doing so without Dakmor.
 
@@ -14,9 +14,9 @@ Graveyard with N nonland cards in it
 Enough lands in hand
 All other referenced cards in hand
 
-Procedure:
+<h2>Procedure:</h2>
 
-I. Setting up, getting gaea's cradle into play:
+<h3>I. Setting up, getting gaea's cradle into play:</h3>
 
 1. Cast crop rotation sacrificing a land
 2. Holding priority on the draw you discard titan
