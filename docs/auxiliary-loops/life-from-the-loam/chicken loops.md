@@ -13,6 +13,7 @@ Enough lands in hand
 All other referenced cards in hand
 
 Procedure:
+
 I. Setting up, getting gaea's cradle into play:
 Cast crop rotation sacrificing a land
 Holding priority on the draw you discard titan
@@ -31,6 +32,7 @@ Is L more than 3?
 If not move on to section V 'Deterministic dredge loop' 
 
 If L is more than 3 AND divisible by 3 then move on to section IV. Non-deterministic dredge loop.
+
 
 III. Setup loop (adds a card to library)
 
