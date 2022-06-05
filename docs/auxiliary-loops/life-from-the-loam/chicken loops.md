@@ -49,6 +49,7 @@ Resolve crop rotation finding gaea's cradle activating for GGGG
 After resolving this loop return to section II 'Determining the road to determinism'
 
 IV. Non-deterministic dredge loop (not shortcuttable)
+
 In this section you will have to loop multiple times without shortcutting. You will need to loop the following dredge loop to acquire a certain amount of mana to be able to move over to a shortcuttable version. The amount of mana needed should be (L-2)*2 and after that you're going to need one more G to cast a crop rotation. 
 
 Discard life from the loam
@@ -80,10 +81,10 @@ Cast crop rotation sacrificing gaea's cradle
 Resolve the draw and then empty out your library by discarding lands
 Discard titan to shuffle
 Resolve crop rotation searching for cradle
-
 Move on to V 'Deterministic dredge loop'.
 
 V. Deterministic dredge loop (shortcuttable)
+
 Discard life from the loam
 Discard a land
 Replace the draw trigger with a dredge 3 from life from the loam which will be a titan and two lands.
@@ -96,7 +97,9 @@ Discard titan
 Resolve crop rotation searching for cradle
 
 Looping these 10 steps will net you an infinite amount of green mana which can be filtered to black by continuing to loop but by replacing all instances of gaea's cradle with a black producing land. These loops can be shortcutted and you can move on to section VI 'Looping spells'.
+
 VI. Looping spells
+
 Before you can loop spells you need to clear your library/graveyard of extra lands. You can do this by using life from the loam as it removes 3 lands, while needing only 1 to draw it back.
 Chain your lands so that your library is empty and your graveyard is full of lands
 Cast loam to get back 3 of those lands
@@ -108,5 +111,3 @@ Cast the spell you want to loop (use assassin's trophy as an example)
 Discard titan to shuffle loam, trophy and titan in library
 Discard 3 lands to draw library
 Cast life from the loam on the 3 lands you discarded
-
-
