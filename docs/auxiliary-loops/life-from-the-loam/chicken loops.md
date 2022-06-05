@@ -16,7 +16,7 @@ All other referenced cards in hand
 
 <h2>Procedure:</h2>
 
-<h3>I. Setting up, getting gaea's cradle into play:</h3>
+<h3>I. Setting up, getting gaea's cradle into play</h3>
 
 1. Cast crop rotation sacrificing a land
 2. Holding priority on the draw you discard titan
@@ -25,11 +25,15 @@ All other referenced cards in hand
 5. In response to crop rotation on the stack discard titan
 6. Resolve crop rotation finding Gaea's cradle and activate for GGGG
 
-II. Determining the road to determinism
+<h3>II. Determining the road to determinism</h3>
+
 This section was made to easily navigate through different parts of the setup so you can get to the shortcuttable loop as soon as possible. The amount of cards in the library will be shortened to L from this point on as they are necessary to determine whether or not you can start shortcutting.
 
-Is L divisible by 3 after activating gaea's cradle for GGGG ?
-If not move on to section III 'Setup loop'
+**Is L divisible by 3 after activating gaea's cradle for GGGG ?**
+* Yes
+  Move on to the next question.
+* No
+  Move on to 'III. Setup loop'
 
 Is L more than 3?
 If not move on to section V 'Deterministic dredge loop' 
