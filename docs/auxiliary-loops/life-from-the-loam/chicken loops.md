@@ -6,13 +6,14 @@ These are new Dakmorless infinite mana loops with crop rotation and gaea's cradl
 
 <h2>Requirements:</h2>
 
-As this is a Darkmorless line we are assuming you emptied your library with Tainted Pact, as this is the only reliable way of doing so without Dakmor.
-
-The gitrog monster, any discard outlet and a total of four creatures in play
-G mana available with at least one land in play
-Graveyard with N nonland cards in it
-Enough lands in hand
-All other referenced cards in hand
+* As this is a Darkmorless line we are assuming you emptied your library with Tainted Pact, as this is the only reliable way of doing so without Dakmor.
+* The gitrog monster in play
+* Any discard outlet in play
+* A total of four creatures in play
+* G mana available with at least one land in play
+* Graveyard with N nonland cards in it
+* Enough lands in hand
+* All other referenced cards in hand
 
 <h2>Procedure:</h2>
 
