@@ -7,7 +7,7 @@ nav_order: 4
 
 # Proof of Determinacy for the Gitrog Monster Combo - Addendum 1: Gaea's Blessing
 
-When I wrote the original algorithm, I did not expect Gaea's Blessing to be a very meaningful card. Clearly it is not good enough to make titans obscelete since it is awkward when drawn, but it has turned out to be quite relevant in many decks regardless. It is particularly important when something like Anafenza is eliminating all creatures and denying a titan based loop. For this reason and other corner cases, I want to demonstrate that even Gaea's Blessing can deterministically generate draw triggers.
+When I wrote the original algorithm, I did not expect Gaea's Blessing to be a very meaningful card. Clearly it is not good enough to make titans obsolete since it is awkward when drawn, but it has turned out to be quite relevant in many decks regardless. It is particularly important when something like Anafenza is eliminating all creatures and denying a titan based loop. For this reason and other corner cases, I want to demonstrate that even Gaea's Blessing can deterministically generate draw triggers.
 
 ## Prerequisites
 * The Gitrog Monster and a Putrid Imp are in play
