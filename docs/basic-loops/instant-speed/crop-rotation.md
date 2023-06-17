@@ -2,7 +2,8 @@
 layout: default
 title: Crop Rotation
 nav_order: 2
-parent: Basic Loops
+grand_parent: Basic Loops
+parent: Instant Speed Loops
 ---
 
 # Crop Rotation Loop
@@ -13,6 +14,7 @@ If you do not have Gaea's Cradle, whether by Forbidden Tutor or budget, you may 
 
 ## Requirements
 
+* An empty deck and graveyard
 * One green mana
 * A total of two or more creatures in play
 

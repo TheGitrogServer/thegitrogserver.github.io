@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Instant Loop
+title: Instant Speed Loops
 nav_order: 3
-parent: Fundamental Loops
+parent: Basic Loops
 has_children: true
-permalink: docs/fundamental-loops/instant-speed/
+permalink: docs/basic-loops/instant-speed/
 ---
 
 # Basic Instant-speed Loop
@@ -14,7 +14,7 @@ This loop is particularly useful if you’re going off over the top of other ins
 ## Requirements 
 
 * A discard outlet in play
-* Empty gravyard and library
+* Empty graveyard and library
 * Unbounded mana
 * An arbitrarily large number of draw triggers on the stack (viä [Koziland](./koziland.md))
 

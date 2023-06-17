@@ -2,8 +2,8 @@
 layout: default
 title: Dark Ritual
 nav_order: 1
-grand_parent: Fundamental Loops
-parent: Instant Loop
+grand_parent: Basic Loops
+parent: Instant Speed Loops
 ---
 
 # Dark Ritual Loop
@@ -14,6 +14,7 @@ Once this loop is done to make black mana, you can filter it into green mana by 
 
 ## Requirements 
 
+* One Black mana avalible
 * A discard outlet in play
 * Empty gravyard and library
 * An arbitrarily large number of draw triggers on the stack

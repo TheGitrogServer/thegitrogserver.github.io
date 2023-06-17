@@ -2,7 +2,7 @@
 layout: default
 title: Drawing the Library
 nav_order: 1
-parent: Fundamental Loops
+parent: Basic Loops
 ---
 
 # Drawing the Library
@@ -40,8 +40,8 @@ If 5 or 6: A shuffler trigger goes on the stack - let it resolve then discard Da
 
 ## Worst Case Scenario
 
-Configuration 6 occurs immediately after each shuffle, every time, and you end up drawing lands off of each Gitrog trigger until the library is devoid of all but one land (and all the non-lands).
+Configuration 6 occurs immediately after each shuffle, every time, and you end up drawing lands off of each Gitrog trigger until the library is devoid fewer than three lands (and all the non-lands).
 
-The solution is to discard all your lands besides Dakmor Salvage and draw that amount of cards from the library. Repeat this process if we continue assuming the worst-case scenario until your graveyard and/or library is just lands and shufflers. If you draw your Eldrazi Titan during this process then simply discard it. Once your library is devoid of anything but lands and shufflers, you can dredge Dakmor Salvage until you generate enough draw triggers to draw the rest. To resolve any excess draw triggers, you can either discard nonland cards followed by a titan, or you can repeatedly discard a titan to resolve them one at a time.
+The solution is to discard all but a few lands to repeatedly Dredge and shuffle. Repeat this process if we continue assuming the worst-case scenario until your graveyard and/or library is just lands and shufflers. If you draw your Eldrazi Titan during this process then simply discard it. Once your library is devoid of anything but lands and shufflers, you can dredge Dakmor Salvage until you generate enough draw triggers to draw the rest. To resolve any excess draw triggers, you can either discard nonland cards followed by a titan, or you can repeatedly discard a titan to resolve them one at a time.
 
 To dissipate any draw triggers leftover once you finsih stacking and draw your library, just discard a titan and draw it until the stack is empty.

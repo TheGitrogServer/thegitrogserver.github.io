@@ -10,7 +10,7 @@ parent: Life from the Loam
 
 ## Requirements
 
-* [Koziland](../fundamental-loops/koziland.md) (1 land and 1 titan being the only thing in the library)
+* [Koziland](../fundamental-loops/koziland.md) state (1 land and 1 titan being the only thing in the library)
 * Life from the Loam in graveyard
 
 ## Procedure

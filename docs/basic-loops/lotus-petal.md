@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Lotus Petal Loop
+title: Lotus Petal
 nav_order: 5
-parent: Fundamental Loops
+parent: Basic Loops
 has_children: false
-permalink: docs/fundamental-loops/lotus-petal/
+permalink: docs/basic-loops/lotus-petal/
 ---
 
 # Basic Lotus Petal Loop
