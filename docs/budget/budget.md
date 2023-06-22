@@ -12,4 +12,16 @@ The loops in this section are only really useful for lists that cannot afford to
 
 Even if you have a budget deck like scoot’s [$500](https://www.moxfield.com/decks/xzxZkSf9P0ehqExXs6E_DQ) list or consider yourself a budget player, if your list plays more than one shuffle effect (i.e. some combination of Kozilek, Ulamog, and Blessing) then these loops are suboptimal.
 
+#### Example budget lists
+* [AspiRe's $30](https://www.moxfield.com/decks/vAQr14z0okufk6QLZua-qw)
+
+* [Pancake's $50](https://www.moxfield.com/decks/VRMqj1czLkOKpOKurvGl7Q)
+
+* [Pancake's $100](https://www.moxfield.com/decks/mwSAnXbYN0GhhTdFKz6OVQ)
+
+* [Pancake's $250](https://www.moxfield.com/decks/VhNQe7_FkUeOWEqKG8yrkQ)
+
+* [scoot's $500](https://www.moxfield.com/decks/xzxZkSf9P0ehqExXs6E_DQ)
+
+
 {: .no_toc }
