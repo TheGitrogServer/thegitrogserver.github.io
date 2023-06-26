@@ -8,13 +8,13 @@ nav_order: 5
 | **Chance to find Dakmor**         |Number of| draw triggers | available |
 |:----------------------------------|:-------:|:-------------:|:---------:|
 | **Percent of deck that is lands** |    1    |       2       |     3     |
-| 26%                               |   43%   |      76%      |    92%    |
-| 27%                               |   46%   |      79%      |    94%    |
-| 28%                               |   50%   |      82%      |    95%    |
-| 29%                               |   53%   |      84%      |    96%    |
-| 31%                               |   56%   |      87%      |    97%    |
-| 32%                               |   59%   |      89%      |    98%    |
-| 33%                               |   62%   |      90%      |    98%    |
+| 26%                               |  42.9%  |     75.0%     |   91.3%   |
+| 27%                               |  46.0%  |     78.2%     |   93.0%   |
+| 28%                               |  49.1%  |     81.0%     |   94.3%   |
+| 29%                               |  52.3%  |     83.6%     |   95.4%   |
+| 31%                               |  55.4%  |     85.9%     |   96.3%   |
+| 32%                               |  58.8%  |     88.1%     |   97.1%   |
+| 33%                               |  61.5%  |     89.8%     |   97.7%   |
 
 
 The purpose of this is not to lay out some new tech or grand reimagination but
@@ -42,42 +42,30 @@ when simmed was surprisingly minor: the first only fell behind by about 0.5-0.9
 percent on each result.
 
 The process for dredge tutoring in the [first version](https://github.com/TheGitrogServer/thegitrogserver.github.io/blob/main/docs/mathematical-proofs/ggt_normal.py)
-is more or less as follows:
-1. dredge 6, if we hit dakmor, great
-	1. if the deck has 7 or fewer cards and we hit a shuffler, shuffle up and go
-	back to start
-	2. if there are 7 or fewer cards and we didn't hit a shuffler: (the success
-	rateof hitting dakmor vs running out of draw triggers in this subsection is
-	38%,with this subsection occurring about 1.6% of the time overall (excluding
-	shuffling up and going to start scenarios))
-	3. if we hit a land on the last dredge, we have to consume that draw by
-	drawing one. Why not dredge loam if you have it? Well you could at 6 or 7
-	cards left in library, but then after dredging 3, if you hit dakmor, dredge
-	2, and hit a land, you are left at 1 card in library, which breaks the "1 or
-	fewer" rule. The second version most certainly opts to dredge loam, and the
-	success rate in the edge cases goes up accordingly.
-	4. shuffle up and go to start
-2. continue dredging. If we ran out of draw triggers, we failed.
-
-In the [second version](https://github.com/TheGitrogServer/thegitrogserver.github.io/blob/main/docs/mathematical-proofs/ggt.py)
-it gets a lot more complicated, with all kinds of edge cases when the library is
-6 cards and under. I won't write out the process unless asked to, though.
+is pretty basic, but in the [second version](https://github.com/TheGitrogServer/thegitrogserver.github.io/blob/main/docs/mathematical-proofs/ggt.py)
+it gets a lot more complicated with all kinds of edge cases when the library is
+6 cards and under. I won't write out the process, though - if you want to see it,
+feel free to poke around in the code.
 
 The output of the first version looks like this:
 ```
 This is an average from a library size of 65 to 85.
-Total number of sims: 441,000,000. Total time: 538.37 secs.
+Total number of sims: 693,000,000. Total time: 847.27 secs.
 
 Trigs:	  1     2     3     
-0.26:    43.0  75.5  92.0
-0.27:    46.2  78.7  93.6
-0.28:    49.3  81.5  94.9
-0.29:    52.6  84.2  95.9
-0.31:    55.7  86.5  96.8
-0.32:    59.1  88.7  97.5
-0.33:    61.9  90.3  98.0
+0.26:    42.9  75.0  91.3
+0.27:    46.0  78.2  93.0
+0.28:    49.1  81.0  94.3
+0.29:    52.3  83.6  95.4
+0.31:    55.4  85.9  96.3
+0.32:    58.7  88.1  97.1
+0.33:    61.5  89.8  97.7
+0.34:    64.9  91.5  98.2
+0.35:    67.5  92.8  98.6
+0.36:    70.3  94.0  98.9
+0.38:    72.6  94.9  99.1
 The first column is the (land count / library size) ratio.
-I.e. for the max land ratio, 85 * 0.33 = 28 lands and 65 * 0.33 = 21 lands.
+I.e. for the max land ratio, 85 * 0.38 = 32 lands and 65 * 0.38 = 24 lands.
 For the min land ratio, 85 * 0.26 = 22 lands and 65 * 0.26 = 17 lands.
 ```
 
@@ -93,3 +81,5 @@ from 65, 66, ..., 84, up to 85 were added and divided by 21 (85 - 65 is 20, but
 we add one as we include 85).
 
 We sim many times so that the percentages converge to their real value.
+
+-- Memento Mori / GitrogPancake
