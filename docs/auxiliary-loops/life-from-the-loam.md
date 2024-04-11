@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Life from the Loam
-nav_order: 4
+nav_order: 5
 parent: Auxiliary Loops
 has_children: true
 permalink: docs/auxiliary-loops/life-from-the-loam
