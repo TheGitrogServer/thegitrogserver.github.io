@@ -7,7 +7,7 @@ parent: Rules Interactions
 
 On 2024-04-09 there was an apparently fraudulent [Reddit post](https://old.reddit.com/r/CompetitiveEDH/comments/1bzwo2p/official_wotc_cedh_is_happening_lemoras_cards/) (imagine my surprise) stating that: *"Today we got huge news about official cEDH tournaments backed by Wizards of the Coast. cEDHPT, a European tournament organizer, just announced that they have plans with WotC for officially backed Commander tournaments in the near future."*
 
-So I contacted my dear friend Toby Elliot to ask him if he and Wizards were going to finally address the unique problems that The Gitrog Monster causes, and the genneral issues with sanctioned Commander.
+So I contacted my dear friend Toby Elliott to ask him if he and Wizards were going to finally address the unique problems that The Gitrog Monster causes, and the genneral issues with sanctioned Commander.
 
 Here was his response
 > I think the recent news that Wizards has tacitly endorsed cEDH is probably massively overblown and is setting people up for a lot of disappointment. I will note that Wizards has not said anything about this.
@@ -22,5 +22,3 @@ I replied
 
 He replied
 > Hehe. I think you have to start with the problem that collusion is entirely legal and likely the best way to win before you go anywhere else. That's not fixable, really
-
-Folks, I… The words speak for themselves.
