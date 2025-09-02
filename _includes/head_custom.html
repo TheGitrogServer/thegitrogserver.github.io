@@ -1,0 +1,93 @@
+<script>
+/**
+ * Enables on-hover MTG card image previews using Scryfall, with caching + preloading.
+ * Usage: Wrap card names in <span class="mtg-card">Card Name</span>
+ */
+(function() {
+  // Create preview container
+  const preview = document.createElement("div");
+  preview.style.position = "absolute";
+  preview.style.pointerEvents = "none";
+  preview.style.display = "none";
+  preview.style.zIndex = "9999";
+  document.body.appendChild(preview);
+
+  const img = document.createElement("img");
+  img.style.maxWidth = "250px";
+  img.style.borderRadius = "8px";
+  img.style.boxShadow = "0 4px 12px rgba(0,0,0,0.5)";
+  preview.appendChild(img);
+
+  // Cache object: { "Card Name" : "image_url" }
+  const cardCache = {};
+
+  // Helper: fetch image from Scryfall
+  async function fetchCardImage(cardName) {
+    if (cardCache[cardName]) return cardCache[cardName]; // already cached
+
+    try {
+      const res = await fetch(
+        `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(cardName)}`
+      );
+      if (!res.ok) return null;
+      const data = await res.json();
+
+      let url = null;
+      if (data.image_uris) {
+        url = data.image_uris.normal;
+      } else if (data.card_faces && data.card_faces[0].image_uris) {
+        url = data.card_faces[0].image_uris.normal;
+      }
+
+      if (url) {
+        cardCache[cardName] = url;
+
+        // Preload the image in the browser cache
+        const preloadImg = new Image();
+        preloadImg.src = url;
+      }
+
+      return url;
+    } catch (err) {
+      console.error("Scryfall fetch error:", err);
+      return null;
+    }
+  }
+
+  // Preload all card names on page load
+  async function preloadAllCards() {
+    const elements = document.querySelectorAll(".mtg-card");
+    const names = [...new Set([...elements].map(el => el.textContent.trim()))];
+    for (const name of names) {
+      fetchCardImage(name);
+    }
+  }
+  window.addEventListener("DOMContentLoaded", preloadAllCards);
+
+  // Event binding
+  document.addEventListener("mouseover", async (e) => {
+    const target = e.target.closest(".mtg-card");
+    if (!target) return;
+
+    const cardName = target.textContent.trim();
+    const url = await fetchCardImage(cardName);
+    if (!url) return;
+
+    img.src = url;
+    preview.style.display = "block";
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (preview.style.display !== "none") {
+      preview.style.top = e.pageY + 20 + "px";
+      preview.style.left = e.pageX + 20 + "px";
+    }
+  });
+
+  document.addEventListener("mouseout", (e) => {
+    if (e.target.closest(".mtg-card")) {
+      preview.style.display = "none";
+    }
+  });
+})();
+</script>
