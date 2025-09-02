@@ -14,4 +14,4 @@ Entering this state is simple enough:
 1. Discard a land, resolve draw trigger
 1. Discard the titan again, resolve shuffle trigger
 
-From here, Koziland loops are those which rely on stacking several draw triggers by discarding and dredging Dakmor. When you dredge Dakmor in this state, you'll have two triggers to put onto the stack, and can stack them so that the shuffle resolves first. This allows you to respond to the draw just created by doing it again.
+From here, Koziland loops are those which rely on stacking several draw triggers by discarding and dredging <span class="mtg-card">Dakmor Salvage</span>. When you dredge Dakmor in this state, you'll have two triggers to put onto the stack, and can stack them so that the shuffle resolves first. This allows you to respond to the draw just created by doing it again.
